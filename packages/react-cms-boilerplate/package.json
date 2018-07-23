@@ -1,6 +1,6 @@
 {
-  "name": "react-zarm-boilerplate",
-  "version": "0.0.1",
+  "name": "react-cms-boilerplate",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -93,5 +93,8 @@
     "webpack-parallel-uglify-plugin": "^1.0.2",
     "whatwg-fetch": "^2.0.4",
     "zarm": "^1.1.1"
+  },
+  "dependencies": {
+    "storage": "^0.0.1"
   }
 }
