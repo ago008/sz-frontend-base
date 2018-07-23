@@ -1,8 +1,8 @@
 {
   "name": "storage",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "web本地缓存扩展封装,localStorage,sessionStorage,cookie,wxapp相关缓存等",
-  "main": "index.js",
+  "main": "dist/storage.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack init",

@@ -1,6 +1,6 @@
 {
   "name": "react-cms-boilerplate",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -95,6 +95,49 @@
     "zarm": "^1.1.1"
   },
   "dependencies": {
-    "storage": "^0.0.1"
+    "jquery": "^3.3.1",
+    "storage": "^0.1.0"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "react-optimize",
+      [
+        "env",
+        {
+          "modules": false,
+          "node": true,
+          "debug": false,
+          "useBuiltIns": false,
+          "targets": {
+            "browsers": "defaults"
+          }
+        }
+      ],
+      "stage-0"
+    ],
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "es",
+          "style": "css"
+        }
+      ],
+      "babel-plugin-styled-components",
+      "transform-async-to-generator",
+      "transform-decorators-legacy",
+      "syntax-dynamic-import",
+      [
+        "transform-runtime",
+        {
+          "helpers": false,
+          "polyfill": false,
+          "regenerator": true,
+          "moduleName": "babel-runtime"
+        }
+      ]
+    ]
   }
 }
