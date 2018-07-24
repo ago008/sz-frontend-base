@@ -1,6 +1,6 @@
 {
   "name": "react-cms-boilerplate",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -96,7 +96,7 @@
   },
   "dependencies": {
     "jquery": "^3.3.1",
-    "storage": "^0.1.5"
+    "storage": "^0.1.6"
   },
   "babel": {
     "presets": [
