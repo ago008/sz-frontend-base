@@ -1,6 +1,6 @@
 {
   "name": "sz-za-storage",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "web本地缓存扩展封装,localStorage,sessionStorage,cookie,wxapp相关缓存等",
   "main": "dist/storage.js",
   "scripts": {
